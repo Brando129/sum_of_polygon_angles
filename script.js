@@ -2,7 +2,7 @@
 
 function internalAnglesSum(sides){
 var sum = (sides - 2) * 180
-    return sum
+    return sum + "°"
 }
 
 console.log(internalAnglesSum(6))
